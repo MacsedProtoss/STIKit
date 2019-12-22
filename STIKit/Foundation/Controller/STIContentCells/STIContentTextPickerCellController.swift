@@ -48,12 +48,12 @@ class STIContentTextPickerCellController : STIContentCellController,UIPickerView
             }
             let OKAction = UIAlertAction(title: "confirm".localized, style: .default) { (action) in
                 self.cellView.textField.text = alert.textFields?.first?.text ?? ""
-                let manager = self.dataManager as! RPTextPickerDataManager
+                let manager = self.dataManager as! STITextPickerDataManager
                 manager.diyText = alert.textFields?.first?.text
             }
             let cancelAction = UIAlertAction(title: "cancel".localized, style: .cancel) { (action) in
                 self.cellView.textField.text = ""
-                let manager = self.dataManager as! RPTextPickerDataManager
+                let manager = self.dataManager as! STITextPickerDataManager
                 manager.diyText = nil
             }
             

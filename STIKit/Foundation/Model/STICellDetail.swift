@@ -14,4 +14,6 @@ struct cellDetail {
     var sections : [String]?
     var subCellDetails : [cellDetail]?
     var isEnabled : Bool?
+    var subTableDetails : [[cellDetail]]?
+    var subTableSelectedIndex : Int?
 }

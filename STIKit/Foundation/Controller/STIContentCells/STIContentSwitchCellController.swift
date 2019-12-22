@@ -28,6 +28,8 @@ class STIContentSwitchCellController : STIContentCellController {
             contentTableController = STIScrollContentDetailViewController(cellDataManagers: STICellDataToManagerConverter.shared.getCellManagers(details: dataManager.cellInfo.subCellDetails!))
             contentTableController!.parentSwitchCellController = self
             contentTableController!.tableManager.parentCellManager = self.dataManager
+            
+            contentTableController!.table.isHidden = !dataManager.cellInfo.isEnabled!
         }
         
         let v = cellView as! STIContentSwitchCell
@@ -59,9 +61,35 @@ class STIContentSwitchCellController : STIContentCellController {
         
         contentTableController?.table.isHidden = !sender.isOn
         
+        updateHeight()
+        
         if !sender.isOn {
             contentTableController?.disableAllInput()
         }
+        
+        
+        
+    }
+    
+    func updateHeight(){
+        var newHeight : CGFloat = 44
+        
+        newHeight += contentTableController?.contentHeight ?? 0
+        
+        if !dataManager.cellInfo.isEnabled! {
+            newHeight = 44
+        }
+        
+        print("\(dataManager.cellInfo.name) 's cellHeight: \(newHeight)")
+        
+        view.frame = CGRect(x: 0, y: 0, width: screenSize.width, height: newHeight)
+        
+        let v = cellView as! STIContentSwitchCell
+        if v.tableView != nil {
+            v.updateTableHeight(height:newHeight-44)
+        }
+        
+        parentTable.parentSwitchCellController?.updateHeight()
         
     }
     

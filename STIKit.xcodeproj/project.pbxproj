@@ -30,6 +30,31 @@
 		4B48659C23A9336400F5967C /* STIContentPureEditCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B48659B23A9336400F5967C /* STIContentPureEditCellController.swift */; };
 		4B48659E23A9339B00F5967C /* STIContentSwitchCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B48659D23A9339B00F5967C /* STIContentSwitchCellController.swift */; };
 		4B4865A023A933EB00F5967C /* STIContentTextPickerCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B48659F23A933EB00F5967C /* STIContentTextPickerCellController.swift */; };
+		4B797E4523AF5105009F618A /* STIPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E4423AF5105009F618A /* STIPopUpView.swift */; };
+		4B797E4823AF513F009F618A /* STIPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E4723AF513F009F618A /* STIPopUpViewController.swift */; };
+		4B797E4A23AF51BB009F618A /* STIContentTitleCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E4923AF51BB009F618A /* STIContentTitleCellController.swift */; };
+		4B797E4C23AF51D9009F618A /* STIContentTitlePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E4B23AF51D9009F618A /* STIContentTitlePickerController.swift */; };
+		4B797E4F23AF5221009F618A /* STIContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E4E23AF5221009F618A /* STIContentCell.swift */; };
+		4B797E5123AF5245009F618A /* STIContentComboTextPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5023AF5245009F618A /* STIContentComboTextPickerCell.swift */; };
+		4B797E5323AF526F009F618A /* STIContentDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5223AF526F009F618A /* STIContentDatePickerCell.swift */; };
+		4B797E5523AF5292009F618A /* STIContentPopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5423AF5292009F618A /* STIContentPopCell.swift */; };
+		4B797E5723AF52B9009F618A /* STIContentPureEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5623AF52B9009F618A /* STIContentPureEditCell.swift */; };
+		4B797E5923AF52DA009F618A /* STIContentSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5823AF52DA009F618A /* STIContentSwitchCell.swift */; };
+		4B797E5B23AF52F6009F618A /* STIContentTextPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5A23AF52F6009F618A /* STIContentTextPickerCell.swift */; };
+		4B797E5D23AF531E009F618A /* STIContentTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5C23AF531E009F618A /* STIContentTitleCell.swift */; };
+		4B797E5F23AF5336009F618A /* STIContentTitlePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E5E23AF5336009F618A /* STIContentTitlePickerCell.swift */; };
+		4B797E6223AF53B5009F618A /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E6123AF53B5009F618A /* protocols.swift */; };
+		4B797E6723AF53EF009F618A /* DynamicColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E6323AF53EE009F618A /* DynamicColors.swift */; };
+		4B797E6823AF53EF009F618A /* PhoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E6423AF53EF009F618A /* PhoneType.swift */; };
+		4B797E6923AF53EF009F618A /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E6523AF53EF009F618A /* StringUtils.swift */; };
+		4B797E6A23AF53EF009F618A /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E6623AF53EF009F618A /* UIUtils.swift */; };
+		4B797E6D23AF545F009F618A /* STINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E6C23AF545F009F618A /* STINavigationBar.swift */; };
+		4B797E7023AF5494009F618A /* STINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E6F23AF5494009F618A /* STINavigationViewController.swift */; };
+		4B797E7323AF5507009F618A /* STIFloatingBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E7223AF5507009F618A /* STIFloatingBtnView.swift */; };
+		4B797E7623AF5568009F618A /* STITitleDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E7423AF5567009F618A /* STITitleDataManager.swift */; };
+		4B797E7723AF5568009F618A /* STITitlePickerDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E7523AF5567009F618A /* STITitlePickerDataManager.swift */; };
+		4B797E7923AF559F009F618A /* STIPopDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E7823AF559F009F618A /* STIPopDataManager.swift */; };
+		4B797E7B23AF5672009F618A /* STIContentPopCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E7A23AF5672009F618A /* STIContentPopCellController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +82,31 @@
 		4B48659B23A9336400F5967C /* STIContentPureEditCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentPureEditCellController.swift; sourceTree = "<group>"; };
 		4B48659D23A9339B00F5967C /* STIContentSwitchCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentSwitchCellController.swift; sourceTree = "<group>"; };
 		4B48659F23A933EB00F5967C /* STIContentTextPickerCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentTextPickerCellController.swift; sourceTree = "<group>"; };
+		4B797E4423AF5105009F618A /* STIPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIPopUpView.swift; sourceTree = "<group>"; };
+		4B797E4723AF513F009F618A /* STIPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIPopUpViewController.swift; sourceTree = "<group>"; };
+		4B797E4923AF51BB009F618A /* STIContentTitleCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentTitleCellController.swift; sourceTree = "<group>"; };
+		4B797E4B23AF51D9009F618A /* STIContentTitlePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentTitlePickerController.swift; sourceTree = "<group>"; };
+		4B797E4E23AF5221009F618A /* STIContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = STIContentCell.swift; path = STIKit/Foundation/View/STIContentCells/Base/STIContentCell.swift; sourceTree = SOURCE_ROOT; };
+		4B797E5023AF5245009F618A /* STIContentComboTextPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentComboTextPickerCell.swift; sourceTree = "<group>"; };
+		4B797E5223AF526F009F618A /* STIContentDatePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentDatePickerCell.swift; sourceTree = "<group>"; };
+		4B797E5423AF5292009F618A /* STIContentPopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentPopCell.swift; sourceTree = "<group>"; };
+		4B797E5623AF52B9009F618A /* STIContentPureEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentPureEditCell.swift; sourceTree = "<group>"; };
+		4B797E5823AF52DA009F618A /* STIContentSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentSwitchCell.swift; sourceTree = "<group>"; };
+		4B797E5A23AF52F6009F618A /* STIContentTextPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentTextPickerCell.swift; sourceTree = "<group>"; };
+		4B797E5C23AF531E009F618A /* STIContentTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentTitleCell.swift; sourceTree = "<group>"; };
+		4B797E5E23AF5336009F618A /* STIContentTitlePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentTitlePickerCell.swift; sourceTree = "<group>"; };
+		4B797E6123AF53B5009F618A /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		4B797E6323AF53EE009F618A /* DynamicColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicColors.swift; sourceTree = "<group>"; };
+		4B797E6423AF53EF009F618A /* PhoneType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneType.swift; sourceTree = "<group>"; };
+		4B797E6523AF53EF009F618A /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		4B797E6623AF53EF009F618A /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		4B797E6C23AF545F009F618A /* STINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STINavigationBar.swift; sourceTree = "<group>"; };
+		4B797E6F23AF5494009F618A /* STINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STINavigationViewController.swift; sourceTree = "<group>"; };
+		4B797E7223AF5507009F618A /* STIFloatingBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIFloatingBtnView.swift; sourceTree = "<group>"; };
+		4B797E7423AF5567009F618A /* STITitleDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STITitleDataManager.swift; sourceTree = "<group>"; };
+		4B797E7523AF5567009F618A /* STITitlePickerDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STITitlePickerDataManager.swift; sourceTree = "<group>"; };
+		4B797E7823AF559F009F618A /* STIPopDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STIPopDataManager.swift; sourceTree = "<group>"; };
+		4B797E7A23AF5672009F618A /* STIContentPopCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIContentPopCellController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +140,7 @@
 		4B48655223A929AB00F5967C /* STIKit */ = {
 			isa = PBXGroup;
 			children = (
+				4B797E6023AF53A3009F618A /* CommonUtils */,
 				4B48658123A92FFA00F5967C /* Foundation */,
 				4B48656023A92BC800F5967C /* CoreTool */,
 				4B48655323A929AB00F5967C /* STIKit.h */,
@@ -130,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				4B48656C23A92E7E00F5967C /* Base */,
+				4B797E7423AF5567009F618A /* STITitleDataManager.swift */,
+				4B797E7823AF559F009F618A /* STIPopDataManager.swift */,
+				4B797E7523AF5567009F618A /* STITitlePickerDataManager.swift */,
 				4B48656F23A92EBC00F5967C /* STIComboTextPickerDataManager.swift */,
 				4B48657123A92EEF00F5967C /* STIDatePickerDataManager.swift */,
 				4B48657323A92F0400F5967C /* STIPureEditDataManager.swift */,
@@ -192,6 +246,9 @@
 		4B48658223A9300700F5967C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4B797E7123AF54F0009F618A /* STIFloatingBtn */,
+				4B797E6B23AF5439009F618A /* STINavigationBar */,
+				4B797E4323AF50E5009F618A /* STIPopUPView */,
 				4B48658A23A930E800F5967C /* STIContentCells */,
 				4B48658923A930DE00F5967C /* STIScrollContent */,
 			);
@@ -209,6 +266,8 @@
 		4B48658423A9302000F5967C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4B797E6E23AF5470009F618A /* STINavigationViewController */,
+				4B797E4623AF5122009F618A /* STIPopUPViewController */,
 				4B48658823A930C500F5967C /* STIScrollContent */,
 				4B48658723A930B700F5967C /* STIContentCells */,
 			);
@@ -224,6 +283,9 @@
 				4B48659B23A9336400F5967C /* STIContentPureEditCellController.swift */,
 				4B48659D23A9339B00F5967C /* STIContentSwitchCellController.swift */,
 				4B48659F23A933EB00F5967C /* STIContentTextPickerCellController.swift */,
+				4B797E4923AF51BB009F618A /* STIContentTitleCellController.swift */,
+				4B797E4B23AF51D9009F618A /* STIContentTitlePickerController.swift */,
+				4B797E7A23AF5672009F618A /* STIContentPopCellController.swift */,
 			);
 			path = STIContentCells;
 			sourceTree = "<group>";
@@ -249,6 +311,15 @@
 		4B48658A23A930E800F5967C /* STIContentCells */ = {
 			isa = PBXGroup;
 			children = (
+				4B797E4D23AF5211009F618A /* Base */,
+				4B797E5023AF5245009F618A /* STIContentComboTextPickerCell.swift */,
+				4B797E5223AF526F009F618A /* STIContentDatePickerCell.swift */,
+				4B797E5423AF5292009F618A /* STIContentPopCell.swift */,
+				4B797E5623AF52B9009F618A /* STIContentPureEditCell.swift */,
+				4B797E5823AF52DA009F618A /* STIContentSwitchCell.swift */,
+				4B797E5A23AF52F6009F618A /* STIContentTextPickerCell.swift */,
+				4B797E5C23AF531E009F618A /* STIContentTitleCell.swift */,
+				4B797E5E23AF5336009F618A /* STIContentTitlePickerCell.swift */,
 			);
 			path = STIContentCells;
 			sourceTree = "<group>";
@@ -267,6 +338,67 @@
 				4B48659523A9328E00F5967C /* STIContentCellController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		4B797E4323AF50E5009F618A /* STIPopUPView */ = {
+			isa = PBXGroup;
+			children = (
+				4B797E4423AF5105009F618A /* STIPopUpView.swift */,
+			);
+			path = STIPopUPView;
+			sourceTree = "<group>";
+		};
+		4B797E4623AF5122009F618A /* STIPopUPViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B797E4723AF513F009F618A /* STIPopUpViewController.swift */,
+			);
+			path = STIPopUPViewController;
+			sourceTree = "<group>";
+		};
+		4B797E4D23AF5211009F618A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4B797E4E23AF5221009F618A /* STIContentCell.swift */,
+			);
+			name = Base;
+			path = STIKit/Foundation/View/STIContentCells/Base;
+			sourceTree = "<group>";
+		};
+		4B797E6023AF53A3009F618A /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4B797E6323AF53EE009F618A /* DynamicColors.swift */,
+				4B797E6423AF53EF009F618A /* PhoneType.swift */,
+				4B797E6523AF53EF009F618A /* StringUtils.swift */,
+				4B797E6623AF53EF009F618A /* UIUtils.swift */,
+				4B797E6123AF53B5009F618A /* protocols.swift */,
+			);
+			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		4B797E6B23AF5439009F618A /* STINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				4B797E6C23AF545F009F618A /* STINavigationBar.swift */,
+			);
+			path = STINavigationBar;
+			sourceTree = "<group>";
+		};
+		4B797E6E23AF5470009F618A /* STINavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B797E6F23AF5494009F618A /* STINavigationViewController.swift */,
+			);
+			path = STINavigationViewController;
+			sourceTree = "<group>";
+		};
+		4B797E7123AF54F0009F618A /* STIFloatingBtn */ = {
+			isa = PBXGroup;
+			children = (
+				4B797E7223AF5507009F618A /* STIFloatingBtnView.swift */,
+			);
+			path = STIFloatingBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,26 +487,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B797E7923AF559F009F618A /* STIPopDataManager.swift in Sources */,
+				4B797E5323AF526F009F618A /* STIContentDatePickerCell.swift in Sources */,
+				4B797E4523AF5105009F618A /* STIPopUpView.swift in Sources */,
+				4B797E4F23AF5221009F618A /* STIContentCell.swift in Sources */,
 				4B48659E23A9339B00F5967C /* STIContentSwitchCellController.swift in Sources */,
 				4B48655C23A92AFC00F5967C /* STIKit.swift in Sources */,
 				4B48658023A92FA200F5967C /* STIPageDataManager.swift in Sources */,
+				4B797E6D23AF545F009F618A /* STINavigationBar.swift in Sources */,
+				4B797E4C23AF51D9009F618A /* STIContentTitlePickerController.swift in Sources */,
+				4B797E5D23AF531E009F618A /* STIContentTitleCell.swift in Sources */,
+				4B797E6923AF53EF009F618A /* StringUtils.swift in Sources */,
+				4B797E6223AF53B5009F618A /* protocols.swift in Sources */,
+				4B797E5F23AF5336009F618A /* STIContentTitlePickerCell.swift in Sources */,
+				4B797E5B23AF52F6009F618A /* STIContentTextPickerCell.swift in Sources */,
+				4B797E6A23AF53EF009F618A /* UIUtils.swift in Sources */,
 				4B48659823A932BC00F5967C /* STIContentComboTextPickerCellController.swift in Sources */,
 				4B48658623A9306500F5967C /* STICellDetail.swift in Sources */,
+				4B797E6723AF53EF009F618A /* DynamicColors.swift in Sources */,
 				4B48659A23A9331C00F5967C /* STIContentDatePickerCellController.swift in Sources */,
+				4B797E4A23AF51BB009F618A /* STIContentTitleCellController.swift in Sources */,
+				4B797E7B23AF5672009F618A /* STIContentPopCellController.swift in Sources */,
 				4B4865A023A933EB00F5967C /* STIContentTextPickerCellController.swift in Sources */,
+				4B797E5523AF5292009F618A /* STIContentPopCell.swift in Sources */,
 				4B48657823A92F2F00F5967C /* STITextPickerDataManager.swift in Sources */,
 				4B48658F23A9315100F5967C /* STIScrollContentCell.swift in Sources */,
+				4B797E4823AF513F009F618A /* STIPopUpViewController.swift in Sources */,
+				4B797E7323AF5507009F618A /* STIFloatingBtnView.swift in Sources */,
 				4B48659323A931C800F5967C /* STIScrollContentDetailViewController.swift in Sources */,
 				4B48656323A92C0200F5967C /* STICellDataToManagerConverter.swift in Sources */,
+				4B797E6823AF53EF009F618A /* PhoneType.swift in Sources */,
 				4B48657023A92EBC00F5967C /* STIComboTextPickerDataManager.swift in Sources */,
+				4B797E7023AF5494009F618A /* STINavigationViewController.swift in Sources */,
 				4B48659623A9328E00F5967C /* STIContentCellController.swift in Sources */,
+				4B797E5723AF52B9009F618A /* STIContentPureEditCell.swift in Sources */,
 				4B48656E23A92E9500F5967C /* STICellDataManager.swift in Sources */,
 				4B48659123A9319600F5967C /* STIScrollContentDetailView.swift in Sources */,
 				4B48657E23A92F9000F5967C /* STITableDataManager.swift in Sources */,
+				4B797E7623AF5568009F618A /* STITitleDataManager.swift in Sources */,
+				4B797E7723AF5568009F618A /* STITitlePickerDataManager.swift in Sources */,
+				4B797E5923AF52DA009F618A /* STIContentSwitchCell.swift in Sources */,
 				4B48658D23A9313100F5967C /* STITableViewWithNoExtraLine.swift in Sources */,
 				4B48657423A92F0400F5967C /* STIPureEditDataManager.swift in Sources */,
 				4B48657223A92EEF00F5967C /* STIDatePickerDataManager.swift in Sources */,
 				4B48657623A92F1A00F5967C /* STISwitchDataManager.swift in Sources */,
+				4B797E5123AF5245009F618A /* STIContentComboTextPickerCell.swift in Sources */,
 				4B48659C23A9336400F5967C /* STIContentPureEditCellController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

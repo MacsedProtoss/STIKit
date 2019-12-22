@@ -18,7 +18,7 @@ class STITableDataManager{
         self.subCellManagers = tableInfo
     }
     
-    
+    var name : String!
     
     
 }
