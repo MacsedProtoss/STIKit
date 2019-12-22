@@ -1,4 +1,4 @@
 language: swift
 xcode_project: STIKit.xcodeproj # path to your xcodeproj folder
 xcode_scheme: STIKitTests
-xcode_destination: platform=iOS Simulator,OS=13.2,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
