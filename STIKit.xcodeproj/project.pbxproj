@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B3A9B0623AF5F6C00F28543 /* STITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9B0523AF5F6C00F28543 /* STITest.swift */; };
+		4B3A9B1223AF64F000F28543 /* STIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A9B1123AF64F000F28543 /* STIKitTests.swift */; };
+		4B3A9B1423AF64F000F28543 /* STIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B48655023A929AB00F5967C /* STIKit.framework */; };
 		4B48655523A929AB00F5967C /* STIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B48655323A929AB00F5967C /* STIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B48655C23A92AFC00F5967C /* STIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B48655B23A92AFC00F5967C /* STIKit.swift */; };
 		4B48655F23A92B9E00F5967C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4B48655E23A92B9E00F5967C /* SnapKit */; };
@@ -58,10 +59,20 @@
 		4B797E7B23AF5672009F618A /* STIContentPopCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E7A23AF5672009F618A /* STIContentPopCellController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4B3A9B1523AF64F000F28543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B48654723A929AB00F5967C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B48654F23A929AB00F5967C;
+			remoteInfo = STIKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		4B3A9B0323AF5F6C00F28543 /* STITest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STITest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B3A9B0523AF5F6C00F28543 /* STITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STITest.swift; sourceTree = "<group>"; };
-		4B3A9B0723AF5F6C00F28543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3A9B0F23AF64F000F28543 /* STIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3A9B1123AF64F000F28543 /* STIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STIKitTests.swift; sourceTree = "<group>"; };
+		4B3A9B1323AF64F000F28543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B48655023A929AB00F5967C /* STIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B48655323A929AB00F5967C /* STIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STIKit.h; sourceTree = "<group>"; };
 		4B48655423A929AB00F5967C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,10 +125,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B3A9B0023AF5F6C00F28543 /* Frameworks */ = {
+		4B3A9B0C23AF64F000F28543 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3A9B1423AF64F000F28543 /* STIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,20 +144,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B3A9B0423AF5F6C00F28543 /* STITest */ = {
+		4B3A9B1023AF64F000F28543 /* STIKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B3A9B0523AF5F6C00F28543 /* STITest.swift */,
-				4B3A9B0723AF5F6C00F28543 /* Info.plist */,
+				4B3A9B1123AF64F000F28543 /* STIKitTests.swift */,
+				4B3A9B1323AF64F000F28543 /* Info.plist */,
 			);
-			path = STITest;
+			path = STIKitTests;
 			sourceTree = "<group>";
 		};
 		4B48654623A929AB00F5967C = {
 			isa = PBXGroup;
 			children = (
 				4B48655223A929AB00F5967C /* STIKit */,
-				4B3A9B0423AF5F6C00F28543 /* STITest */,
+				4B3A9B1023AF64F000F28543 /* STIKitTests */,
 				4B48655123A929AB00F5967C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				4B48655023A929AB00F5967C /* STIKit.framework */,
-				4B3A9B0323AF5F6C00F28543 /* STITest.xctest */,
+				4B3A9B0F23AF64F000F28543 /* STIKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,22 +449,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B3A9B0223AF5F6C00F28543 /* STITest */ = {
+		4B3A9B0E23AF64F000F28543 /* STIKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B3A9B0A23AF5F6C00F28543 /* Build configuration list for PBXNativeTarget "STITest" */;
+			buildConfigurationList = 4B3A9B1723AF64F000F28543 /* Build configuration list for PBXNativeTarget "STIKitTests" */;
 			buildPhases = (
-				4B3A9AFF23AF5F6C00F28543 /* Sources */,
-				4B3A9B0023AF5F6C00F28543 /* Frameworks */,
-				4B3A9B0123AF5F6C00F28543 /* Resources */,
+				4B3A9B0B23AF64F000F28543 /* Sources */,
+				4B3A9B0C23AF64F000F28543 /* Frameworks */,
+				4B3A9B0D23AF64F000F28543 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4B3A9B1623AF64F000F28543 /* PBXTargetDependency */,
 			);
-			name = STITest;
-			productName = STITest;
-			productReference = 4B3A9B0323AF5F6C00F28543 /* STITest.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = STIKitTests;
+			productName = STIKitTests;
+			productReference = 4B3A9B0F23AF64F000F28543 /* STIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		4B48654F23A929AB00F5967C /* STIKit */ = {
 			isa = PBXNativeTarget;
@@ -485,7 +498,7 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = UniqueStudio.Macsed;
 				TargetAttributes = {
-					4B3A9B0223AF5F6C00F28543 = {
+					4B3A9B0E23AF64F000F28543 = {
 						CreatedOnToolsVersion = 11.2;
 					};
 					4B48654F23A929AB00F5967C = {
@@ -511,13 +524,13 @@
 			projectRoot = "";
 			targets = (
 				4B48654F23A929AB00F5967C /* STIKit */,
-				4B3A9B0223AF5F6C00F28543 /* STITest */,
+				4B3A9B0E23AF64F000F28543 /* STIKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B3A9B0123AF5F6C00F28543 /* Resources */ = {
+		4B3A9B0D23AF64F000F28543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -534,11 +547,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B3A9AFF23AF5F6C00F28543 /* Sources */ = {
+		4B3A9B0B23AF64F000F28543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3A9B0623AF5F6C00F28543 /* STITest.swift in Sources */,
+				4B3A9B1223AF64F000F28543 /* STIKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,37 +610,45 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4B3A9B1623AF64F000F28543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B48654F23A929AB00F5967C /* STIKit */;
+			targetProxy = 4B3A9B1523AF64F000F28543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		4B3A9B0823AF5F6C00F28543 /* Debug */ = {
+		4B3A9B1823AF64F000F28543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = STITest/Info.plist;
+				INFOPLIST_FILE = STIKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = UniqueStudio.Macsed.STITest;
+				PRODUCT_BUNDLE_IDENTIFIER = UniqueStudio.Macsed.STIKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4B3A9B0923AF5F6C00F28543 /* Release */ = {
+		4B3A9B1923AF64F000F28543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = STITest/Info.plist;
+				INFOPLIST_FILE = STIKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = UniqueStudio.Macsed.STITest;
+				PRODUCT_BUNDLE_IDENTIFIER = UniqueStudio.Macsed.STIKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -812,11 +833,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B3A9B0A23AF5F6C00F28543 /* Build configuration list for PBXNativeTarget "STITest" */ = {
+		4B3A9B1723AF64F000F28543 /* Build configuration list for PBXNativeTarget "STIKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B3A9B0823AF5F6C00F28543 /* Debug */,
-				4B3A9B0923AF5F6C00F28543 /* Release */,
+				4B3A9B1823AF64F000F28543 /* Debug */,
+				4B3A9B1923AF64F000F28543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
